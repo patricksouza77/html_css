@@ -1,0 +1,22 @@
+h1 {
+    font: italic bold 25px verdana; /*font: style-> weight-> size-> family*/
+    background-color: lightgoldenrodyellow;
+    height: 300px;
+    width: 300px;
+    border: 3px solid brown; /*border: width*(espessura)-> style-> color*/
+    padding: 20px; /*expandir espaços entre o texto e a borda */
+    margin: auto; /*centralizar caixa de texto*/
+    outline: 5px dashed green;
+}
+
+body {
+    font: italic normal 25px verdana;
+}
+
+span {
+    font: italic normal 1.2em verdana; /*font: style-> weight-> size-> family*/
+    color: darkblue;
+    background-color: lightcoral;
+    border: 2px dotted maroon; /*border: width*(espessura)-> style-> color*/
+    padding: 10px; /*expandir espaços entre o texto e a borda */
+}

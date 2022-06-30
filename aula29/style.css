@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'love larry';
+    src: url('fonts/love\ larry\ ttf.ttf') format('truetype');
+}
+
+body {
+    font-family: 'love larry';
+}

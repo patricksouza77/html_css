@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to right, #FFBB8E, #D91E0D, #A60D0D);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    width: 700px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #330606; /*(lado direito -> para baixo -> espalhamento -> cor) SEM virgulas*/
+}
+
+h1 {
+    text-align: center;
+    color: #D91E0D;
+    text-shadow: 2px 2px 2px #330606;
+}
+
+h2 {
+    color:#590A0A;
+    text-decoration: underline;
+}
+

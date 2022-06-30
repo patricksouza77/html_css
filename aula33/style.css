@@ -1,0 +1,17 @@
+body {
+    font-family: verdana;
+}
+
+div:hover {
+    color:red;
+} 
+
+div>p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: blue;
+    font-style: italic;
+}

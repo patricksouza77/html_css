@@ -1,0 +1,41 @@
+/* # = id 
+   . = class
+   : = pseudo-class (ex:hover)
+  :: = pseudo-element (ex: =>)
+   > = children */
+
+
+body {
+    font-family:monospace;
+
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+a::after {
+    content: '[link]';
+    color: lightslategray;
+}
+
+a.especial::before {
+    content: '=>';
+}
+
+a.especial {
+    background-color: rgba(221, 221, 128, 0.767);
+}

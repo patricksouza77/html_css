@@ -1,0 +1,183 @@
+/*ONDE USAR??? background-attachment: fixed; */
+
+@font-face {
+    font-family: 'android';
+    src: url('/aula36/d10_files/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #49F5D5, #00A889, #007560);    
+}
+
+header > h1 {
+    color: white;
+    font: normal 300 3em android;
+    text-align: center;
+    padding: 10px;
+    width: 100%;    
+}
+
+header > p {
+    color: white;
+    font: normal 300 1em android;
+    text-align: center;
+}
+
+a.a {
+    background-color: #007560;
+    color: white;
+    font: normal 100 1em monospace;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+a.a:hover {
+    background-color:#3abda5;
+}
+
+a.b::after {
+    content: '\1F517';
+}
+
+nav {
+    background-color: #007560;
+    box-shadow: 0px 1px 0px #0075606c 
+}
+
+h2 {
+    color: #007560;
+    font: normal 300 1.5em android;
+    text-align: left;
+    background-image: linear-gradient(to right, #49F5D5, transparent);
+}
+
+body {
+    background-color: rgba(119, 223, 188, 0.301);
+}
+
+h1#a {   
+    color:#007560;
+    font: normal 300 1.5em android;
+    text-align: center;
+    padding: 10px;
+    box-shadow: none;
+}
+
+main {
+    border: 2px solid rgba(200, 209, 218, 0.719);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: black;
+    background-color: white;
+    color: black;
+    font: normal 100 1.5em monospace;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em; /*espaço entre linhas*/
+    margin: auto;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 20px; /*há a possibilidade de usar margem negativa ex: 10px;*/
+    min-width: 300px;
+    max-width: 900px;
+    box-shadow: 0px 0px 1px black;
+}
+
+img {
+    width: 100%;
+}
+
+img.p {
+    max-width: 300px; /*reduzindo ou aumentando o zoom a imagem só cresce até esse tamanho*/
+    margin: auto; /*Uma imagem por padrão, não é um bloco*/ 
+    display: block; /*portanto para centralizar alem do margim auto, tem que por display block*/
+  
+}
+
+footer {
+    background-color: rgb(4, 68, 4);
+    text-align: center;
+    color: white;
+    font: normal 100 1em monospace;
+    padding: 5px;
+}
+
+h3 {
+    background-color: darkgreen;
+    color: white;
+    font:normal 300 1.5em android;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p.a {
+    text-align: justify;
+    text-indent: 30px;
+    font:normal 100 1em monospace;
+    background-color: #4de44d;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+p.b {
+    text-align: justify;
+    text-indent: 30px;
+    font:normal 100 1em monospace;
+    background-color: #4de44d;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+p.video {
+    background-color: darkgreen;
+    padding: 20px;
+    margin: 2px -20px; /*esses -20px serve para o frame do video ocupar todo o espaço*/
+    padding-bottom: 50%; /*50% é a proporção da altura que o video vai alcançar*/
+    position: relative;
+}
+
+p.video > iframe {
+    position: absolute;
+    top: 5%; /*Deu pouco de espaço em cima*/
+    left: 5%; /*Deu pouco de espaço a esquerda*/
+    width: 90%; 
+    height: 90%; /*as proporções de L x A tem q ser iguais*/
+}
+
+ul {
+    font:normal 100 1em monospace;
+    background-color: #4de44d;
+    border-radius: 0px 0px 0px 0px;
+    list-style-position: inside;
+    columns: 2; /*Esse comando serve para inserir colunas*/
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    list-style-type:'\2714';
+}
+
+strong {
+    font-style: italic;
+    color: #007560;
+}
+
+a.b {
+    background-color: #3abda55e;
+    color: darkblue;
+    text-decoration: none;
+}
+
+a.b:hover {
+    text-decoration: underline;
+    background-color: aqua;
+    font-style: italic;
+}
