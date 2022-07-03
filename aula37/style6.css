@@ -1,0 +1,21 @@
+body {background-color: black;
+    background-image: url('ex022/imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; /*a imagem de fundo não se move*/
+    /*Shorthand Background:
+    color => image => position => repeat => /size => attachement
+    PS: No size tem que por uma "/" antes para funcionar*/
+     
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid darkblue;
+    text-align: justify;
+    text-indent: 20px;
+}
