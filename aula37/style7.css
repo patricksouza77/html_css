@@ -1,0 +1,13 @@
+#container {
+    height: 500px;
+    background-color: purple;
+    padding: 10px;
+    position: relative; 
+}
+
+#conteudo {
+    height: 200px;
+    background-color: yellow; /*está dentro do roxo*/
+    width: 400px;
+    position: absolute; /*a figura de dentro sempre terá posocionamento absoluto*/
+}
