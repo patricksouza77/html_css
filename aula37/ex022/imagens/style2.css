@@ -1,0 +1,9 @@
+body {
+    background-image: url('https://codeberryschool.com/blog/wp-content/uploads/2022/03/htmlbackgroundcover.png');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    border: 2px dashed gray;
+    height: 100vh; /*ocupa 100% de visualização da altura da web page*/
+    background-position:center center ;
+}
+
