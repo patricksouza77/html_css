@@ -8,11 +8,12 @@ header {
     padding: 5px;
     max-width: 1000px;
 }
+
 header > p {
     font: italic normal 16px monospace;
 }
 
-main > p {
+section > p {
     font: italic 550 1.7em Ms Madi;
     width: 400px;
     text-indent: 20px;
@@ -20,11 +21,30 @@ main > p {
     line-height: 2em;
 }
 
+.normal {
+
+}
+
+.imagem {
+    background-color: rgb(82, 78, 78);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer {
     font: italic normal 14px monospace;
     color: white;
     background-color: black;
     text-align: center;
-    padding: 2px;
+    padding: 4px;
 }
+
 
