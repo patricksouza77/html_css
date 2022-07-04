@@ -1,8 +1,10 @@
 #container {
-    height: 500px;
+    height: 96vh; /*ocupa 96% do corpo da web page*/
     background-color: purple;
     padding: 10px;
     position: relative; 
+    background-image: url('ex022/imagens/target001.png');
+    background-size: 100% 100%;
 }
 
 #conteudo {
@@ -10,4 +12,14 @@
     background-color: yellow; /*está dentro do roxo*/
     width: 400px;
     position: absolute; /*a figura de dentro sempre terá posocionamento absoluto*/
+    left: 50%;
+    top: 50%; /*valores referentes ao canto superior esquerdo da fig amarela*/
+    background-image: url('ex022/imagens/target001.png');
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%); /* 1º percentual:+50% à direita ou -50% à direita. 2º percentual: +50% p cima ou -50% p baixo.*/
 }
+
+
+
+/*left: 100px; => distancia entre borda lateral e figura*/
+/*top: 200px; => distancia entre borda acima e figura*/
