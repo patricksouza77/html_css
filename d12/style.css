@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+header {
+    background-color: black;
+    color: white;
+    font: normal bold 2em Ms Madi;
+    text-align: center;
+    padding: 5px;
+    max-width: 1000px;
+}
+header > p {
+    font: italic normal 16px monospace;
+}
+
+main > p {
+    font: italic 550 1.7em Ms Madi;
+    width: 400px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+footer {
+    font: italic normal 14px monospace;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+}
+
