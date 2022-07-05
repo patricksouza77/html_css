@@ -3,31 +3,58 @@
 header {
     background-color: black;
     color: white;
-    font: normal bold 2em Ms Madi;
     text-align: center;
     padding: 5px;
     max-width: 1000px;
+}
+
+h1 {
+    font: normal bold 5vw Ms Madi;
 }
 
 header > p {
     font: italic normal 16px monospace;
 }
 
+section {
+    padding-top: 10vh; /*está nesse formato e não em px para poder adptar-se ao tamanho da tela*/
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
 section > p {
-    font: italic 550 1.7em Ms Madi;
+    font: italic 600 2.5vw Ms Madi;
     width: 400px;
     text-indent: 20px;
     text-align: justify;
     line-height: 2em;
 }
 
-.normal {
-
-}
-
 .imagem {
     background-color: rgb(82, 78, 78);
     color: white;
+    box-shadow:inset 6px 6px 9px 0px  rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 5px;
+}
+
+#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    max-width: 1000px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    max-width: 1000px;
+    text-shadow: 1px 1px 1px black;
 }
 
 a {
