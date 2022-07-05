@@ -1,0 +1,17 @@
+td { 
+    border: solid 1px brown;
+    border-style: dashed;
+}
+
+.a {
+    background-color: rgba(240, 240, 15, 0.651);
+}
+
+table {
+    width: 400px;
+    height: 150px;
+    border-collapse: collapse;
+    font: 300 monospace;
+    text-align: right;
+    color: darkblue;
+}
