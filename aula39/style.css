@@ -1,0 +1,24 @@
+
+th {
+    background-color: darkblue;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font: normal normal 1.1em monospace;
+}
+
+td {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.a {
+    background-color: rgba(119, 136, 153, 0.5);
+    font-weight: bold;
+}
