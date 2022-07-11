@@ -1,0 +1,34 @@
+caption {
+    padding: 5px;
+}
+
+th {
+    padding: 1px;
+    background-color: darkgray;
+    color: white;
+    border: solid 1px black;
+}
+
+td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+.a {
+    text-align: left;
+    font-style: italic;
+}
+
+.b {
+    font-style: italic;
+    background-color: darkgray;
+    color: white;
+}
+
+
+table {
+    border-collapse: collapse;
+    font: normal 200 18px verdana;
+    width: 450px;
+}
+
