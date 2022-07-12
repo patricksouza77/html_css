@@ -1,0 +1,50 @@
+caption {
+    padding: 10px;
+}
+
+thead {
+    background-color: darkblue;
+    border: solid 0.5px darkblue;
+    color: white;
+    position: sticky;
+    top: -1px;
+}
+
+td {
+    border: solid 0.5px darkblue;
+}
+
+.a {
+    text-align: left;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    font: normal 100 18px monospace;
+    position: relative;
+}
+
+tfoot {
+    border: solid 0.5px darkblue;
+    background-color: gray;
+    color: black;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+iframe {
+    padding: 10px;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
