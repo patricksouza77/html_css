@@ -1,0 +1,13 @@
+body {
+    font: normal 300 0.8em verdana;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+iframe {
+    border: 1px solid black;
+    width: 95vw;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
