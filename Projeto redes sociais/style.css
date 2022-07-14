@@ -15,7 +15,7 @@ main {
     position: relative; /*o main sempre será relativo*/
     background-size: cover; /*cobrir a tela inteira*/
     background-attachment: fixed; /*eliminar barra de rolagem*/
-}
+} 
 
 section#iphone {
     height: 627px;
@@ -34,4 +34,22 @@ section#iphone {
     width: 268px;
     height: 500px;
     background-attachment: fixed;
+}
+
+#social-webs > a > img {
+    width: 50px; /*quando diminui a altura, automaticamente, diminui a largura na mesma proporção e vice-versa*/
+    margin: 10px;
+    border-radius: 25px; /*A partir de 25px o objeto já fica redondo*/
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.801); 
+   box-sizing: border-box; /*Ao mexer num objeto não ovimenta o outro*/
+}
+
+#social-webs {
+    text-align: right;
+    margin-right: 30px;
+}
+
+#social-webs > a > img:hover {
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    transform: translate(-3px, -3px);
 }
