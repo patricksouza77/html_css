@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main { 
+    background: url(imagens/fundo-madeira.jpg);
+    height: 100vh;
+    position: relative; /*o main sempre será relativo*/
+    background-size: cover; /*cobrir a tela inteira*/
+    background-attachment: fixed; /*eliminar barra de rolagem*/
+}
+
+section#iphone {
+    height: 627px;
+    width: 311px;
+    position:absolute; /*o posicionamento do id ou classe sempre será absoluto*/
+    top:50%;
+    left: 50%; /*nessas configurações o canto superior esquerdo do objeto é que fica centralizado*/
+    transform: translate(-50%, -50%); /*tecnica utilizada para centralizar o objeto*/
+    background: url(imagens/frame-iphone.png) no-repeat;
+}
+
+#screen{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 500px;
+    background-attachment: fixed;
+}
