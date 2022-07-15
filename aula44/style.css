@@ -1,0 +1,14 @@
+p {
+    padding: 5px;
+}
+
+form {
+    font: normal lighter 15px arial;
+    background-color:rgb(241, 241, 81);
+    color: darkblue;
+}
+
+body {
+    background-color: black;
+    color: antiquewhite;
+}

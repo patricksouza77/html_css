@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="teste.js" method="post">
+        <p>
+            <label for="inome">Usuário:</label>
+            <input type="text" name="nome" id="inome" size="15" required minlength="4" maxlength="12" placeholder="nome do usuário">
+        </p>
+
+        <p>
+            <label for="icorreio">e-mail:</label>
+            <input type="email" name="correio" id="icorreio" size="15" required minlength="10" maxlength="25" placeholder="endereço eletrônico">
+        </p>
+
+        <p>
+            <label for="inumero">Número:</label>
+            <input type="number" name="numero" id="inumero" size="15" required min="1" max="100" placeholder="1 à 100">
+        </p>
+
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" size="15" required minlength="8" maxlength="16" placeholder="password">
+        </p>
+
+        <p>
+            <input type="reset" value="limpar">
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+</body>
+</html>
